@@ -5,7 +5,7 @@ from ShoesScraping.items import Shoes
 
 
 class SelfySpider(CrawlSpider):
-    name = 'selfy'
+    name = 'selfy_spider'
     allowed_domains = ['selfy.com.ua']
     start_urls = ['https://selfy.com.ua/vsya-obuv-selfy/']
 
